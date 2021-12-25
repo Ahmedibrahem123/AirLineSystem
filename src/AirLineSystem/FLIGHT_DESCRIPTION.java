@@ -4,13 +4,8 @@ public class FLIGHT_DESCRIPTION {
     private String To, From;
     private double Arrival, Departure;
     private int Capacity ;
-    public FLIGHT_DESCRIPTION(String To, String From, double Arrival, double Departure, int Capacity){
-        this.To = To;
-        this.From = From;
-        this.Arrival= Arrival;
-        this.Departure = Departure;
-        this.Capacity = Capacity;
-    }
+
+
 
     public String getTo() {
         return To;

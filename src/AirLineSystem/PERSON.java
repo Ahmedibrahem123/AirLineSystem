@@ -2,10 +2,6 @@ package AirLineSystem;
 
 public class PERSON {
     private String name, address ;
-    public PERSON(String name, String address){
-        this.name = name;
-        this.address = address;
-    }
 
     public String getName() {
         return name;
